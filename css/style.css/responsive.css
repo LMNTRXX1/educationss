@@ -1,0 +1,75 @@
+/*! 1140px */
+@media(max-width: 1140px) {
+    .find__wrapper {
+        justify-content: center;
+    }
+}
+
+/*! 769px */
+@media(max-width: 769px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__block {
+        display: none;
+    }
+
+    .header__burger-menu {
+        display: block;
+    }
+
+    .hero__title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .hero__text {
+        font-size: 16px;
+    }
+
+    .online__wrapper {
+        justify-content: center;
+        transform: translateY(-150px);
+    }
+
+    .find__title {
+        font-size: 33px;
+    }
+}
+
+/*! 426px */
+@media(max-width: 426px) {
+    .online__wrapper {
+        transform: translateY(-180px);
+    }
+
+    .user__titles {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+/*! 420px */
+@media(max-width: 420px) {
+    .input__form {
+        flex-direction: column;
+    }
+}
+
+/*! 376px */
+@media(max-width: 376px) {
+    .area__text {
+        max-width: 100%;
+    }
+
+    .area__blocks {
+        display: flex;
+        gap: 30px;
+    }
+
+    .area__titles {
+        font-size: 43px;
+        line-height: 52px;
+    }
+}
